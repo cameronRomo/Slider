@@ -1,0 +1,23 @@
+.btnSlide {
+  width: 60px;
+  height: 60px;
+  /* border-radius: 50%; */
+  background: transparent;
+  border: transparent;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.prev {
+  top: 50%;
+  left: 20px;
+  transform: translateY(-60%);
+}
+.next {
+  top: 50%;
+  right: 20px;
+  transform: translateY(-60%);
+}
